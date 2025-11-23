@@ -4,6 +4,9 @@ ddpm_full_samples/
 ddpm_samples/
 t1_to_t2_samples/
 vae_samples/
+mri_slice_images/
+dataset/
+dataset_png/
 
 # Ignore model checkpoints
 ddpm_full_mid_slices_t1.pth
