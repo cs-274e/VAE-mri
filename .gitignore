@@ -14,7 +14,11 @@ ddpm_mid_slices_t1_small.pth
 ddpm_mid_slices_t1.pth
 t1_to_t2_unet.pth
 vae_mid_slices_t1.pth
+conditional_ddpm/best_models
 
 # Ignore zip/download artifacts
 zenodo_upload_v2.zip
 zenodo_upload_v2.zip?download=1
+mri_slice_images.zip
+
+logs/
