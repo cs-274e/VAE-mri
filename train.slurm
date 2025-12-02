@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=test
+#SBATCH --job-name=overfit
 #SBATCH --partition=arcus.p
 #SBATCH --ntasks=1
 #SBATCH --gres=gpu:1
@@ -7,8 +7,8 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100G
 #SBATCH --time=100:00:00
-#SBATCH --output=logs/test_%j.log
-#SBATCH --error=logs/test_%j.err
+#SBATCH --output=logs/train_%j.log
+#SBATCH --error=logs/train_%j.err
 #SBATCH --mail-type=all
 #SBATCH --mail-user=udelaqui@uci.edu
 
@@ -39,7 +39,7 @@ nvidia-smi || true
 # ---- run training ----
 cd /baldig/bioprojects2/uxue/VAE-mri
 
-# $PYTHON conditional_ddpm/train_conditional_ddpm.py
-$PYTHON conditional_ddpm/test_conditional_ddpm.py
+$PYTHON conditional_ddpm/train/overfit.py
+# $PYTHON conditional_ddpm/test_conditional_ddpm_2.py
 
 echo "=== Job finished at $(date)"
