@@ -1,0 +1,12 @@
+============================================================
+EVALUATION RESULTS (DDPM T1->T2)
+============================================================
+Checkpoint: conditional_ddpm/train/best_models/ddpm_cond_t1_to_t2_3_corrected_2.pth
+Test root: dataset/test
+Number of test slices: 4752
+
+Average Metrics:
+  SSIM: 0.7192 ± 0.1088
+  PSNR: 18.6580 ± 3.1556 dB
+  MSE:  1195.1562 ± 1200.4316
+============================================================

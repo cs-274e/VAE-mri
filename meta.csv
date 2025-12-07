@@ -1,0 +1,834 @@
+image_id;myelinisation;age;age_corrected;doctor_predicted_age;diagnosis;group
+s0001;normal;22;22;22;normal;train
+s0002;normal;29;29;29;normal;train
+s0003;normal;4;4;4;normal;train
+s0004;normal;0;0;0;normal;train
+s0005;normal;0;0;0;normal;train
+s0006;normal;17;17;17;normal;train
+s0007;normal;0;0;0;premature;train
+s0008;normal;36;36;36;normal;train
+s0009;normal;5;5;5;normal;train
+s0010;normal;36;36;36;normal;train
+s0011;normal;25;25;25;normal;train
+s0012;normal;23;23;23;normal;train
+s0013;normal;18;18;18;normal;train
+s0014;normal;18;18;18;normal;train
+s0015;normal;27;27;27;normal;train
+s0016;normal;19;19;19;normal;train
+s0017;normal;28;28;28;normal;train
+s0018;normal;32;32;32;postoperative;train
+s0019;normal;7;7;7;normal;train
+s0020;normal;32;32;32;normal;train
+s0021;normal;17;17;17;Leigh Syndrome;train
+s0022;normal;14;14;14;normal;train
+s0023;normal;26;26;26;normal;train
+s0024;normal;0;0;0;normal;train
+s0025;normal;7;7;7;normal;train
+s0026;normal;20;20;20;normal;train
+s0027;normal;0;0;0;brain oedem;train
+s0028;normal;8;8;8;normal;train
+s0029;normal;8;8;8;heterotopia;train
+s0030;normal;5;5;5;normal;train
+s0031;normal;35;35;35;normal;train
+s0032;normal;0;0;0;normal;train
+s0033;normal;31;31;31;normal;train
+s0034;normal;3;3;3;polymicroglia;train
+s0035;normal;2;2;2;normal;train
+s0036;normal;10;10;10;normal;train
+s0037;normal;0;0;0;normal;train
+s0038;normal;27;27;27;normal;train
+s0039;normal;7;7;7;normal;train
+s0040;normal;19;19;19;normal;train
+s0041;normal;0;0;0;HIE;train
+s0042;normal;0;0;0;normal;train
+s0043;normal;7;7;7;normal;train
+s0044;normal;11;11;11;normal;train
+s0045;normal;36;36;36;normal;train
+s0046;normal;35;35;35;Hydrocephalus;train
+s0047;normal;5;5;5;normal;train
+s0048;normal;12;12;12;normal;train
+s0049;normal;8;8;8;Hydrocephalus;train
+s0050;normal;3;3;3;normal;train
+s0051;normal;0;0;0;HIE;train
+s0052;normal;22;22;22;normal;train
+s0053;normal;32;32;32;normal;train
+s0054;normal;4;4;4;normal;train
+s0055;normal;28;28;28;normal;train
+s0056;normal;8;8;8;normal;train
+s0057;normal;14;14;14;normal;train
+s0058;normal;22;22;22;normal;train
+s0059;normal;7;7;7;Hydrocephalus;train
+s0060;normal;0;0;0;HIE ;train
+s0061;normal;24;24;24;normal;train
+s0062;normal;0;0;0;HIE;train
+s0063;normal;24;24;24;heterotopia;train
+s0064;normal;2;0;0;Premature, PVL;train
+s0065;normal;0;0;0;encephalocele;train
+s0066;normal;2;2;2;normal;train
+s0067;normal;1;1;1;normal;train
+s0068;normal;35;35;35;normal;train
+s0069;normal;22;22;22;normal;train
+s0070;normal;14;14;14;Meningitis;train
+s0071;normal;20;20;20;normal;train
+s0072;normal;7;7;7;normal;train
+s0073;normal;0;0;0;normal;train
+s0074;normal;4;4;4;normal;train
+s0075;normal;17;16;17;premature;train
+s0076;normal;10;10;10;normal;train
+s0077;normal;15;15;15;Leigh Syndrome;train
+s0078;normal;15;15;15;normal;train
+s0079;normal;0;0;0;HIE;train
+s0080;normal;35;35;35;normal;train
+s0081;normal;0;0;0;normal;train
+s0082;normal;11;10;11;Premature, PVL, hydrocephalus;train
+s0083;normal;4;4;4;normal;train
+s0084;normal;2;2;2;subdural hygrom;train
+s0085;normal;23;23;23;normal;train
+s0086;normal;0;-1;-1;premature, HIE;train
+s0087;normal;13;13;13;normal;train
+s0088;normal;17;17;17;Infarct;train
+s0089;normal;18;18;18;normal;train
+s0090;normal;24;24;24;normal;train
+s0091;normal;25;25;25;normal;train
+s0092;normal;26;26;26;normal;train
+s0093;normal;22;22;22;normal;train
+s0094;normal;0;0;0;normal;train
+s0095;normal;0;0;0;normal;train
+s0096;normal;4;4;4;cerebellar calcification;train
+s0097;normal;9;9;9;normal;train
+s0098;normal;5;5;5;normal;train
+s0099;normal;24;24;24;normal;train
+s0100;normal;10;10;10;normal;train
+s0101;normal;23;23;23;normal;train
+s0102;normal;13;13;13;searing injuries;train
+s0103;normal;10;10;10;normal;train
+s0104;normal;7;7;7;normal;train
+s0105;normal;4;4;4;normal;train
+s0106;normal;13;13;13;normal;train
+s0107;normal;20;20;20;normal;train
+s0108;normal;25;25;25;normal;train
+s0109;normal;26;26;26;normal;train
+s0110;normal;11;11;11;normal;train
+s0111;normal;0;0;0;normal;train
+s0112;normal;36;36;36;normal;train
+s0113;normal;34;34;34;normal;train
+s0114;normal;20;20;20;normal;train
+s0115;normal;30;30;30;Corpus callosum agenesis;train
+s0116;normal;14;14;14;Hydrocephalus;train
+s0117;normal;9;9;9;normal;train
+s0118;normal;3;3;3;normal;train
+s0119;normal;5;5;5;normal;train
+s0120;normal;35;35;35;normal;train
+s0121;normal;10;10;10;normal;train
+s0122;normal;31;31;31;normal;train
+s0123;normal;32;32;32;normal;train
+s0124;normal;28;28;28;Mithocondriopathy;train
+s0125;normal;33;33;33;normal;train
+s0126;normal;0;0;0;HIE;train
+s0127;normal;14;14;14;normal;train
+s0128;normal;2;2;2;normal;train
+s0129;normal;21;21;21;normal;train
+s0130;normal;22;22;22;normal;train
+s0131;normal;4;4;4;macrocephaly;train
+s0132;normal;16;16;16;normal;train
+s0133;normal;16;16;16;normal;train
+s0134;normal;27;27;27;normal;train
+s0135;normal;17;17;17;normal;train
+s0136;normal;22;22;22;normal;train
+s0137;normal;25;25;25;Gliotic foci;train
+s0138;normal;12;12;12;normal;train
+s0139;normal;9;9;9;normal;train
+s0140;normal;29;29;29;normal;train
+s0141;normal;0;-1;0;premature, hydrocephalus;train
+s0142;normal;0;0;0;normal;train
+s0143;normal;9;9;9;Meningitis;train
+s0144;normal;31;31;31;normal;train
+s0145;normal;29;29;29;normal;train
+s0146;normal;26;26;26;normal;train
+s0147;delayed;4;4;0;Delayed myelinisation, cerebral atrophy;train
+s0148;normal;6;6;6;PVL;train
+s0149;normal;6;6;6;Meningitis;train
+s0150;normal;35;35;35;normal;train
+s0151;normal;25;25;25;normal;train
+s0152;normal;14;14;14;normal;train
+s0153;normal;1;1;1;Congenital CMV infection;train
+s0154;normal;0;0;0;normal;train
+s0155;normal;12;12;12;cerebral atrophy;train
+s0156;normal;36;36;36;Arachnoidal cyst;train
+s0157;normal;14;14;14;normal;train
+s0158;normal;30;30;30;normal;train
+s0159;normal;34;34;34;normal;train
+s0160;delayed;4;4;1;Intracerebral hemorrhage;train
+s0161;normal;16;16;16;normal;train
+s0162;normal;0;0;0;Intracerebral hemorrhage;train
+s0163;normal;4;4;4;normal;train
+s0164;normal;6;6;6;HIE;train
+s0165;normal;1;1;1;normal;train
+s0166;normal;0;-1;-1;premature;train
+s0167;normal;29;29;29;normal;train
+s0168;normal;0;0;0;Infarct;train
+s0169;normal;3;3;3;normal;train
+s0170;normal;24;24;24;normal;train
+s0171;normal;25;25;25;Hydrocephalus;train
+s0172;normal;6;6;6;normal;train
+s0173;normal;3;3;3;normal;train
+s0174;normal;30;30;30;normal;train
+s0175;normal;0;0;0;Meningitis;train
+s0176;normal;5;5;5;cerebral/cerebellar atrophy;train
+s0177;normal;0;0;0;normal;train
+s0178;normal;0;0;0;brain oedem;train
+s0179;normal;32;32;32;normal;train
+s0180;normal;1;1;1;subdurale hemorrhagy;train
+s0181;normal;21;21;21;normal;train
+s0182;normal;16;16;16;normal;train
+s0183;normal;5;5;5;normal;train
+s0184;normal;6;6;6;normal;train
+s0185;normal;21;21;21;cerebral atrophy;train
+s0186;normal;0;0;0;brain oedem;train
+s0187;normal;30;30;30;normal;train
+s0188;normal;18;18;18;Hydrocephalus;train
+s0189;normal;5;5;5;normal;train
+s0190;normal;0;0;0;normal;train
+s0191;normal;19;19;19;normal;train
+s0192;normal;13;13;13;normal;train
+s0193;normal;0;0;0;brain oedem;train
+s0194;normal;21;21;21;normal;train
+s0195;normal;3;3;3;normal;train
+s0196;normal;3;3;3;heterotopia;train
+s0197;normal;0;-1;0;premature;train
+s0198;normal;4;4;4;normal;train
+s0199;normal;30;30;30;brain oedem;train
+s0200;normal;31;31;31;normal;train
+s0201;normal;0;0;0;normal;train
+s0202;normal;12;12;12;normal;train
+s0203;normal;15;15;15;normal;train
+s0204;normal;19;19;19;normal;train
+s0205;normal;0;0;0;normal;train
+s0206;normal;10;10;10;normal;train
+s0207;normal;0;0;0;normal;train
+s0208;normal;15;15;15;Plagiocephaly;train
+s0209;normal;11;11;11;normal;train
+s0210;normal;26;26;26;normal;train
+s0211;normal;2;0;0;premature;train
+s0212;normal;24;24;24;normal;train
+s0213;normal;11;11;11;cerebral atrophy;train
+s0214;normal;0;0;0;craniosynostosis;train
+s0215;normal;4;4;4;normal;train
+s0216;normal;25;25;25;normal;train
+s0217;normal;4;4;4;normal;train
+s0218;normal;19;19;19;normal;train
+s0219;normal;1;1;1;Hydrocephalus;train
+s0220;normal;13;13;13;encephalomalasy;train
+s0221;normal;4;4;4;normal;train
+s0222;normal;23;23;23;normal;train
+s0223;normal;34;34;34;normal;train
+s0224;normal;1;1;1;normal;train
+s0225;normal;3;3;3;normal;train
+s0226;normal;0;0;0;HIE;train
+s0227;normal;13;13;13;normal;train
+s0228;normal;27;27;27;Arachnoidal cyst;train
+s0229;normal;25;25;25;normal;train
+s0230;normal;7;7;7;Macrocephaly;train
+s0231;normal;0;0;0;normal;train
+s0232;normal;13;13;13;normal;train
+s0233;normal;7;7;7;normal;train
+s0234;normal;28;28;28;normal;train
+s0235;normal;27;27;27;normal;train
+s0236;normal;28;28;28;normal;train
+s0237;normal;8;8;8;normal;train
+s0238;normal;4;4;4;normal;train
+s0239;normal;30;30;30;normal;train
+s0240;normal;0;0;0;Infarct;train
+s0241;normal;12;12;12;normal;train
+s0242;normal;21;21;21;normal;train
+s0243;normal;5;5;5;Hydrocephalus;train
+s0244;normal;18;18;18;normal;train
+s0245;normal;21;21;21;normal;train
+s0246;normal;4;4;4;normal;train
+s0247;normal;33;33;33;normal;train
+s0248;normal;31;31;31;normal;train
+s0249;normal;11;11;11;normal;train
+s0250;normal;32;32;32;normal;train
+s0251;normal;3;3;3;normal;train
+s0252;normal;13;13;13;Brachycephaly;train
+s0253;normal;23;23;23;normal;train
+s0254;normal;0;0;0;HIE;train
+s0255;normal;13;13;13;Septooptic dysplasy;train
+s0256;normal;17;17;17;normal;train
+s0257;normal;19;19;19;normal;train
+s0258;normal;18;18;18;normal;train
+s0259;normal;6;6;6;Meningitis;train
+s0260;normal;25;25;25;normal;train
+s0261;normal;7;7;7;Hydrocephalus;train
+s0262;normal;24;24;24;normal;train
+s0263;normal;16;16;16;normal;train
+s0264;normal;35;35;35;normal;train
+s0265;normal;26;26;26;normal;train
+s0266;normal;0;0;0;HIE;train
+s0267;normal;17;17;17;normal;train
+s0268;normal;7;7;7;normal;train
+s0269;normal;14;14;14;normal;train
+s0270;normal;35;35;35;normal;train
+s0271;normal;14;14;14;Motion artefact;train
+s0272;normal;0;0;0;HIE;train
+s0273;normal;7;7;7;normal;train
+s0274;normal;27;27;27;normal;train
+s0275;normal;0;0;0;normal;train
+s0276;normal;16;16;16;normal;train
+s0277;normal;32;32;32;normal;train
+s0278;normal;18;18;18;normal;train
+s0279;normal;13;13;13;normal;train
+s0280;normal;34;34;34;normal;train
+s0281;normal;0;0;0;Infarct;train
+s0282;normal;0;0;0;normal;train
+s0283;normal;28;28;28;normal;train
+s0284;normal;6;6;6;normal;train
+s0285;normal;5;5;5;normal;train
+s0286;normal;18;18;18;normal;train
+s0287;normal;0;0;0;normal;train
+s0288;normal;8;8;8;Hydrocephalus;train
+s0289;normal;21;21;21;Meningitis;train
+s0290;normal;5;5;5;subararachnoidal hemorrhage;train
+s0291;normal;26;26;26;normal;train
+s0292;normal;2;0;0;premature;train
+s0293;normal;15;15;15;normal;train
+s0294;normal;22;22;22;normal;train
+s0295;normal;36;36;36;normal;train
+s0296;normal;15;15;15;normal;train
+s0297;normal;14;14;14;normal;train
+s0298;normal;3;3;3;normal;train
+s0299;normal;1;1;1;normal;train
+s0300;normal;35;35;35;normal;train
+s0301;normal;22;22;22;normal;train
+s0302;normal;5;5;5;normal;train
+s0303;normal;26;26;26;normal;train
+s0304;normal;20;20;20;normal;train
+s0305;normal;31;31;31;normal;train
+s0306;normal;16;16;16;normal;train
+s0307;normal;11;11;11;Hydrocephalus;train
+s0308;normal;1;1;1;Hydrocephalus;train
+s0309;normal;14;14;14;normal;train
+s0310;normal;3;3;3;Meningitis;train
+s0311;normal;25;25;25;heterotopia;train
+s0312;normal;27;27;27;normal;train
+s0313;normal;1;-1;0;premature, hydrocephalus;train
+s0314;normal;14;14;14;normal;train
+s0315;normal;4;4;4;normal;train
+s0316;normal;9;9;9;normal;train
+s0317;normal;5;5;5;normal;train
+s0318;normal;36;36;36;normal;train
+s0319;normal;6;4;4;premature;train
+s0320;normal;14;14;14;normal;train
+s0321;normal;34;34;34;normal;train
+s0322;normal;3;3;3;normal;train
+s0323;normal;12;12;12;normal;train
+s0324;normal;7;7;7;normal;train
+s0325;normal;8;8;8;normal;train
+s0326;normal;0;0;0;Infarct;train
+s0327;normal;19;19;19;normal;train
+s0328;normal;14;14;14;normal;train
+s0329;normal;17;17;17;normal;train
+s0330;normal;30;30;30;normal;train
+s0331;normal;20;20;20;normal;train
+s0332;normal;18;18;18;normal;train
+s0333;normal;4;4;4;normal;train
+s0334;normal;34;34;34;normal;train
+s0335;normal;3;3;3;normal;train
+s0336;normal;2;2;2;normal;train
+s0337;normal;36;36;36;normal;train
+s0338;normal;5;5;5;normal;train
+s0339;normal;4;4;4;normal;train
+s0340;normal;30;30;30;normal;train
+s0341;delayed;9;8;8;Premature, Infarct;train
+s0342;normal;0;0;0;Intracerebral hemorrhage;train
+s0343;normal;30;30;30;normal;train
+s0344;normal;0;0;0;normal;train
+s0345;normal;0;0;0;Meningocele;train
+s0346;normal;0;0;0;HIE;train
+s0347;normal;2;2;2;normal;train
+s0348;normal;30;30;30;normal;train
+s0349;normal;8;8;8;normal;train
+s0350;normal;8;8;8;Mithocondriopathy;train
+s0351;normal;6;6;6;normal;train
+s0352;normal;35;35;35;normal;train
+s0353;normal;28;28;28;normal;train
+s0354;normal;5;5;5;normal;train
+s0355;normal;8;5;5;premature, infarct;train
+s0356;normal;10;10;10;normal;train
+s0357;normal;20;20;20;normal;train
+s0358;normal;34;34;34;normal;train
+s0359;normal;35;35;35;normal;train
+s0360;normal;35;35;35;heterotopia;train
+s0361;normal;18;18;18;normal;train
+s0362;normal;36;36;36;normal;train
+s0363;normal;9;8;8;premature, hydrocephalus;train
+s0364;normal;5;5;5;Arnold Chiari Malformation;train
+s0365;normal;31;31;31;normal;train
+s0366;normal;4;4;4;normal;train
+s0367;normal;33;33;33;normal;train
+s0368;normal;2;0;0;premature, intraventricular hemorrhage ;train
+s0369;normal;35;35;35;normal;train
+s0370;normal;24;24;24;Corpus callosum agenesis;train
+s0371;normal;8;8;8;normal;train
+s0372;normal;32;32;32;normal;train
+s0373;normal;34;34;34;normal;train
+s0374;normal;0;0;0;normal;train
+s0375;normal;0;0;0;brain oedem;train
+s0376;normal;3;3;3;normal;train
+s0377;normal;27;27;27;normal;train
+s0378;normal;0;0;0;premature, HIE;train
+s0379;normal;19;19;19;normal;train
+s0380;normal;17;17;17;normal;train
+s0381;normal;32;32;32;normal;train
+s0382;normal;25;25;25;normal;train
+s0383;normal;0;0;0;normal;train
+s0384;normal;34;34;34;normal;train
+s0385;normal;17;17;17;normal;train
+s0386;normal;25;25;25;normal;train
+s0387;normal;19;19;19;normal;train
+s0388;normal;10;10;10;normal;train
+s0389;normal;36;36;36;normal;train
+s0390;normal;2;2;2;normal;train
+s0391;normal;0;0;0;subararachnoidal hemorrhage;train
+s0392;normal;25;25;25;Hydrocephalus;train
+s0393;normal;33;33;33;Gliotic foci;train
+s0394;normal;5;5;5;normal;train
+s0395;normal;21;21;21;normal;train
+s0396;normal;5;5;5;normal;train
+s0397;normal;3;3;3;normal;train
+s0398;normal;34;34;34;normal;train
+s0399;normal;29;29;29;normal;train
+s0400;normal;31;31;31;normal;train
+s0401;normal;28;28;28;normal;train
+s0402;normal;5;5;5;cerebral atrophy;train
+s0403;normal;24;24;24;normal;train
+s0404;normal;30;30;30;normal;train
+s0405;normal;3;3;3;normal;train
+s0406;normal;15;15;15;normal;train
+s0407;normal;9;9;9;Motion artefact;train
+s0408;normal;3;3;3;normal;train
+s0409;normal;15;15;15;normal;train
+s0410;normal;27;27;27;normal;train
+s0411;normal;28;28;28;normal;train
+s0412;delayed;14;14;12;cerebral atrophy;train
+s0413;normal;23;23;23;normal;train
+s0414;normal;5;5;5;normal;train
+s0415;normal;16;16;16;normal;train
+s0416;normal;5;5;5;normal;train
+s0417;normal;31;31;31;normal;train
+s0418;normal;28;28;28;normal;train
+s0419;normal;15;15;15;normal;train
+s0420;normal;35;35;35;normal;train
+s0421;normal;24;24;24;normal;train
+s0422;normal;0;-1;0;premature, HIE;train
+s0423;normal;10;10;10;normal;train
+s0424;normal;33;33;33;normal;train
+s0425;normal;36;36;36;normal;train
+s0426;normal;8;8;8;normal;train
+s0427;normal;18;18;18;normal;train
+s0428;normal;10;10;10;normal;train
+s0429;normal;14;14;14;normal;train
+s0430;normal;7;7;7;normal;train
+s0431;normal;36;36;36;normal;train
+s0432;normal;25;25;25;normal;train
+s0433;normal;25;25;25;normal;train
+s0434;normal;17;17;17;Hydrocephalus;train
+s0435;normal;3;3;3;normal;train
+s0436;normal;25;25;25;normal;train
+s0437;normal;22;22;22;cerebral atrophy;train
+s0438;normal;20;20;20;normal;train
+s0439;normal;0;0;0;GMB;train
+s0440;normal;2;2;2;normal;train
+s0441;normal;0;0;0;normal;train
+s0442;normal;16;16;16;normal;train
+s0443;normal;3;3;3;normal;train
+s0444;normal;17;17;17;subdural hygrom;train
+s0445;normal;30;30;30;normal;train
+s0446;normal;9;9;9;normal;train
+s0447;normal;0;0;0;normal;train
+s0448;normal;5;5;5;postoperative;train
+s0449;normal;17;17;17;normal;train
+s0450;normal;27;27;27;normal;train
+s0451;normal;33;33;33;normal;train
+s0452;normal;3;3;3;normal;train
+s0453;normal;20;20;20;normal;train
+s0454;normal;6;6;6;normal;train
+s0455;normal;5;5;5;normal;train
+s0456;normal;29;29;29;normal;train
+s0457;normal;5;5;5;normal;train
+s0458;normal;0;-1;0;normal;train
+s0459;normal;2;2;2;normal;train
+s0460;normal;24;24;24;normal;train
+s0461;normal;0;0;0;normal;train
+s0462;normal;12;12;12;Hydrocephalus;train
+s0463;normal;0;0;0;HIE ;train
+s0464;normal;23;23;23;normal;train
+s0465;normal;6;6;6;normal;train
+s0466;normal;23;23;23;normal;train
+s0467;normal;0;0;0;Gliotic foci;train
+s0468;normal;0;0;0;normal;train
+s0469;normal;2;2;2;normal;train
+s0470;normal;17;17;17;normal;train
+s0471;normal;30;30;30;normal;train
+s0472;normal;0;0;0;normal;train
+s0473;normal;13;13;13;normal;train
+s0474;normal;12;12;12;Hydrocephalus;train
+s0475;normal;2;2;2;normal;train
+s0476;normal;0;0;0;normal;train
+s0477;normal;20;20;20;normal;train
+s0478;normal;3;3;3;normal;train
+s0479;normal;11;11;11;normal;train
+s0480;normal;19;19;19;normal;train
+s0481;normal;18;18;18;normal;train
+s0482;normal;10;10;10;normal;train
+s0483;normal;31;31;31;normal;train
+s0484;normal;20;20;20;normal;train
+s0485;normal;20;20;20;normal;train
+s0486;normal;13;13;13;normal;train
+s0487;normal;13;13;13;normal;train
+s0488;normal;9;9;9;normal;train
+s0489;normal;31;31;31;normal;train
+s0490;normal;0;0;0;normal;train
+s0491;normal;28;28;28;normal;train
+s0492;normal;0;0;0;normal;train
+s0493;normal;2;2;2;normal;train
+s0494;normal;22;22;22;normal;train
+s0495;normal;21;21;21;normal;train
+s0496;normal;19;19;19;normal;train
+s0497;normal;3;3;3;normal;train
+s0498;normal;0;0;0;subdurale hemorrhagy;train
+s0499;normal;28;28;28;normal;train
+s0500;normal;3;3;3;Macrocephaly;train
+s0501;normal;30;30;30;normal;train
+s0502;normal;13;13;13;normal;train
+s0503;normal;28;28;28;normal;train
+s0504;normal;0;0;0;normal;train
+s0505;normal;2;2;2;normal;train
+s0506;normal;28;28;28;normal;train
+s0507;normal;21;21;21;normal;train
+s0508;normal;0;0;0;normal;train
+s0509;normal;3;3;3;normal;train
+s0510;normal;10;10;10;normal;train
+s0511;normal;22;22;22;normal;train
+s0512;normal;13;13;13;normal;train
+s0513;normal;1;1;1;normal;train
+s0514;normal;2;2;2;normal;train
+s0515;normal;8;8;8;normal;train
+s0516;normal;0;0;0;Infarct;train
+s0517;normal;30;30;30;normal;train
+s0518;normal;35;35;35;normal;train
+s0519;normal;4;4;4;Hydrocephalus;train
+s0520;normal;23;23;23;Arnold Chiari Malformation;train
+s0521;normal;28;28;28;postoperative;train
+s0522;normal;0;0;0;Infarct;train
+s0523;normal;33;33;33;normal;train
+s0524;normal;24;24;24;normal;train
+s0525;normal;31;31;31;normal;train
+s0526;normal;30;30;30;normal;train
+s0527;normal;1;1;1;normal;train
+s0528;normal;16;16;16;normal;train
+s0529;normal;0;0;0;normal;train
+s0530;normal;22;22;22;normal;train
+s0531;normal;23;23;23;normal;train
+s0532;normal;3;3;3;normal;train
+s0533;normal;19;19;19;normal;train
+s0534;normal;0;0;0;normal;train
+s0535;normal;27;27;27;normal;train
+s0536;normal;0;0;0;Infarct;train
+s0537;normal;23;23;23;normal;train
+s0538;normal;25;25;25;normal;train
+s0539;normal;5;5;5;normal;train
+s0540;normal;3;3;3;normal;train
+s0541;normal;33;33;33;normal;train
+s0542;normal;0;0;0;HIE;train
+s0543;normal;2;2;2;normal;train
+s0544;normal;0;0;0;Infarct;train
+s0545;normal;27;27;27;normal;train
+s0546;normal;36;36;36;normal;train
+s0547;normal;2;2;2;normal;train
+s0548;normal;9;9;9;normal;train
+s0549;normal;0;0;0;normal;train
+s0550;normal;0;0;0;normal;train
+s0551;normal;21;21;21;Arachnoidal cyst;train
+s0552;normal;36;36;36;normal;train
+s0553;normal;0;0;0;HIE;train
+s0554;normal;0;0;0;normal;train
+s0555;normal;0;0;0;HIE;train
+s0556;normal;3;3;3;normal;train
+s0557;normal;5;5;5;normal;train
+s0558;normal;4;4;4;neuroectodermal tumor;train
+s0559;normal;0;0;0;normal;train
+s0560;normal;13;13;13;normal;train
+s0561;normal;28;28;28;normal;train
+s0562;normal;5;5;5;cerebral atrophy, hydrocephalus;train
+s0563;normal;5;5;5;subdurale hemorrhagy;train
+s0564;normal;8;8;8;normal;train
+s0565;normal;8;8;8;normal;train
+s0566;normal;26;26;26;normal;train
+s0567;normal;22;22;22;normal;train
+s0568;normal;7;7;7;normal;train
+s0569;normal;35;35;35;normal;train
+s0570;normal;23;23;23;normal;train
+s0571;normal;12;12;12;normal;train
+s0572;normal;11;8;8;premature;train
+s0573;normal;1;1;1;normal;train
+s0574;normal;8;8;8;normal;train
+s0575;normal;8;8;8;normal;train
+s0576;normal;0;0;0;HIE;train
+s0577;normal;0;-1;0;premature, HIE;train
+s0578;normal;5;5;5;macrocephaly;train
+s0579;normal;5;5;5;normal;train
+s0580;normal;18;18;18;normal;train
+s0581;normal;0;0;0;HIE;train
+s0582;normal;0;0;0;normal;train
+s0583;normal;0;0;0;normal;train
+s0584;normal;6;6;6;normal;train
+s0585;normal;35;35;35;normal;train
+s0586;normal;18;18;18;Intracerebral hemorrhage;train
+s0587;normal;24;24;24;normal;train
+s0588;normal;0;0;0;HIE;train
+s0589;normal;18;18;18;Normal;train
+s0590;normal;0;0;0;normal;train
+s0591;normal;14;14;14;normal;train
+s0592;normal;28;28;28;normal;train
+s0593;normal;6;6;6;normal;train
+s0594;normal;35;35;35;Intracerebral hemorrhage;train
+s0595;normal;29;29;29;normal;train
+s0596;normal;0;0;0;normal;train
+s0597;normal;20;20;20;normal;train
+s0598;normal;15;15;15;normal;train
+s0599;normal;32;32;32;normal;train
+s0600;normal;11;11;11;normal;train
+s0601;normal;15;15;15;normal;train
+s0602;normal;34;34;34;normal;train
+s0603;normal;8;8;8;normal;train
+s0604;normal;9;9;9;normal;train
+s0605;normal;4;4;4;normal;train
+s0606;normal;31;31;31;normal;train
+s0607;normal;18;18;18;normal;train
+s0608;normal;32;32;32;normal;train
+s0609;normal;17;17;17;normal;train
+s0610;normal;34;34;34;normal;train
+s0611;normal;15;15;15;normal;train
+s0612;normal;0;0;0;normal;train
+s0613;normal;29;29;29;normal;train
+s0614;normal;5;5;5;Hydrocephalus;train
+s0615;normal;0;0;0;HIE;train
+s0616;normal;30;30;30;normal;train
+s0617;normal;17;14;14;Premature, PVL, Hydrocephalus;train
+s0618;normal;0;0;0;Infarct;train
+s0619;normal;36;36;36;normal;train
+s0620;normal;19;19;19;VP shunt Hydrocephalus;train
+s0621;normal;0;0;0;normal;train
+s0622;normal;30;30;30;normal;train
+s0623;normal;25;25;25;normal;train
+s0624;normal;0;0;0;HIE;train
+s0625;normal;13;13;13;normal;train
+s0626;normal;0;0;0;normal;train
+s0627;normal;2;2;2;normal;train
+s0628;normal;36;36;36;normal;train
+s0629;normal;22;22;22;normal;train
+s0630;normal;5;5;5;normal;train
+s0631;normal;18;18;18;normal;train
+s0632;normal;7;7;7;normal;train
+s0633;normal;16;16;16;normal;train
+s0634;normal;4;4;4;normal;train
+s0635;normal;7;7;7;Hydrocephalus;train
+s0636;normal;2;2;2;Corpus callosum agenesis;train
+s0637;normal;36;36;36;normal;train
+s0638;normal;27;27;27;normal;train
+s0639;normal;26;26;26;normal;train
+s0640;normal;3;3;3;Dandy-Walker continuum;train
+s0641;normal;34;34;34;normal;train
+s0642;normal;8;8;8;normal;train
+s0643;normal;0;0;0;normal;train
+s0644;normal;27;27;27;normal;train
+s0645;normal;0;0;0;Arnold Chiari Malformation;train
+s0646;normal;6;6;6;subdurale hemorrhagy;train
+s0647;normal;12;12;12;normal;train
+s0648;normal;20;20;20;macrocephaly;train
+s0649;normal;3;3;3;normal;train
+s0650;normal;0;0;0;HIE;train
+s0651;normal;0;0;0;HIE, cerebral oedeme;train
+s0652;normal;0;0;0;Hydrocephalus;train
+s0653;normal;0;0;0;normal;train
+s0654;normal;1;1;1;normal;train
+s0655;normal;0;0;0;HIE;train
+s0656;normal;30;30;30;normal;train
+s0657;normal;0;0;0;encephalopathy (biliribun);train
+s0658;normal;24;24;24;normal;train
+s0659;normal;3;0;0;premature, hydrocephalus;train
+s0660;normal;5;5;5;normal;train
+s0661;normal;36;36;36;normal;train
+s0662;normal;14;14;14;Plagiocephaly;train
+s0663;normal;30;30;30;normal;train
+s0664;normal;29;29;29;normal;train
+s0665;normal;5;5;5;normal;train
+s0666;normal;23;23;23;normal;train
+s0667;normal;0;0;0;HIE;train
+s0668;normal;9;9;9;normal;train
+s0669;normal;16;16;16;Polyneuropathy;train
+s0670;normal;0;0;0;HIE;train
+s0671;normal;36;36;36;normal;train
+s0672;normal;17;17;17;normal;train
+s0673;normal;32;32;32;normal;train
+s0674;normal;12;12;12;Hydrocephalus;train
+s0675;normal;0;0;0;normal;train
+s0676;normal;12;12;12;normal;train
+s0677;normal;24;24;24;Hydrocephalus;train
+s0678;normal;0;0;0;normal;train
+s0679;normal;30;30;30;normal;train
+s0680;normal;16;16;16;normal;train
+s0681;normal;18;18;18;normal;train
+s0682;normal;8;8;8;cerebral atrophy;train
+s0683;normal;8;8;8;cerebral atrophy;train
+s0684;normal;5;5;5;normal;train
+s0685;normal;2;2;2;normal;train
+s0686;normal;13;13;13;normal;train
+s0687;normal;0;0;0;normal;train
+s0688;normal;19;19;19;Hydrocephalus;train
+s0689;normal;0;0;0;normal;train
+s0690;normal;19;19;19;normal;train
+s0691;normal;26;26;26;normal;train
+s0692;normal;20;20;20;normal;train
+s0693;normal;14;14;14;normal;train
+s0694;normal;0;0;0;infarct;train
+s0695;normal;27;27;27;normal;train
+s0696;normal;27;27;27;normal;train
+s0697;normal;3;3;3;normal;train
+s0698;normal;2;2;2;normal;train
+s0699;normal;8;8;8;normal;train
+s0700;normal;0;0;0;Infarct;train
+s0701;normal;25;25;25;normal;train
+s0702;normal;25;25;25;normal;train
+s0703;normal;26;26;26;normal;train
+s0704;normal;0;0;0;normal;train
+s0705;normal;1;1;1;normal;train
+s0706;normal;5;5;5;normal;train
+s0707;normal;12;12;12;normal;train
+s0708;normal;0;0;0;normal;train
+s0709;normal;18;18;18;normal;train
+s0710;normal;0;0;0;normal;train
+s0711;normal;24;24;24;NF1;test
+s0712;normal;23;23;23;PVL;test
+s0713;normal;4;4;4;normal;test
+s0714;normal;0;0;0;HIE, cerebral oedeme;test
+s0715;normal;6;6;6;normal;test
+s0716;normal;0;0;0;Congenital CMV infection;test
+s0717;normal;16;16;16;cranial fasciitis;test
+s0718;normal;11;11;11;normal;test
+s0719;normal;29;29;29;Hydrocephalus;test
+s0720;normal;23;23;23;normal;test
+s0721;normal;15;15;15;Gliotic foci;test
+s0722;normal;32;32;32;normal;test
+s0723;normal;0;0;0;Intracerebral hemorrhage;test
+s0724;normal;0;0;0;HIE;test
+s0725;normal;15;15;15;subdurale hemorrhagy;test
+s0726;normal;9;9;9;subdurale hemorrhagy;test
+s0727;normal;8;8;8;Meningitis;test
+s0728;normal;0;0;0;HIE;test
+s0729;normal;1;0;0;Corpus callosum agenesis;test
+s0730;normal;3;3;3;Infarct;test
+s0731;normal;19;19;19;Meningitis;test
+s0732;normal;1;0;0;premature, HIE;test
+s0733;normal;17;17;17;normal;test
+s0734;normal;2;2;2;Meningitis;test
+s0735;normal;0;0;0;HIE;test
+s0736;normal;2;2;2;HIE;test
+s0737;normal;0;0;0;HIE;test
+s0738;normal;32;32;32;Ependymom;test
+s0739;normal;1;1;1;HIE;test
+s0740;normal;0;0;0;Infarct;test
+s0741;normal;20;20;20;Hydrocephalus;test
+s0742;normal;31;31;31;Gliotic foci;test
+s0743;normal;10;10;10;polymicroglia;test
+s0744;normal;0;0;0;HIE;test
+s0745;normal;0;0;0;normal;test
+s0746;normal;0;0;0;subdurale hemorrhagy;test
+s0747;normal;25;25;25;polymicroglia;test
+s0748;normal;26;26;26;Tumor;test
+s0749;normal;10;10;10;Hydrocephalus;test
+s0750;normal;19;19;19;Pons Gliom;test
+s0751;normal;0;-1;-1;premature, Polymicrogyria;test
+s0752;normal;0;0;0;Infarct;test
+s0753;normal;0;0;0;HIE;test
+s0754;normal;12;12;12;polymicroglia;test
+s0755;normal;0;0;0;Infarct;test
+s0756;normal;32;32;32;pylocytic astrocytom;test
+s0757;normal;0;-1;-1;premature, HIE;test
+s0758;normal;2;2;2;normal;test
+s0759;normal;0;0;0;normal;test
+s0760;normal;5;5;5;Meningitis;test
+s0761;normal;0;0;0;Infarct;test
+s0762;normal;0;0;0;HIE;test
+s0763;normal;0;0;0;melanin deposition;test
+s0764;normal;14;14;14;Meningitis;test
+s0765;normal;16;16;16;encephalomalasy;test
+s0766;normal;13;13;13;intraventricular hemorrhage ;test
+s0767;normal;4;4;4;Meningitis;test
+s0768;normal;0;0;0;normal;test
+s0769;normal;27;27;27;normal;test
+s0770;normal;30;30;30;normal;test
+s0771;normal;0;0;0;Congenital CMV;test
+s0772;normal;25;25;25;normal;test
+s0773;normal;30;30;30;encephalomalasy;test
+s0774;normal;22;22;22;normal;test
+s0775;normal;7;7;7;Infarct;test
+s0776;normal;8;8;8;normal;test
+s0777;normal;17;17;17;normal;test
+s0778;normal;0;0;0;GMB;test
+s0779;normal;12;12;12;normal;test
+s0780;normal;13;13;13;normal;test
+s0781;normal;0;0;0;HIE;test
+s0782;normal;20;20;20;DNET;test
+s0783;normal;22;22;22;Hydrocephalus;test
+s0784;normal;2;2;2;polymicroglia;test
+s0785;normal;0;0;0;HIE;test
+s0786;normal;35;35;35;NF 1;test
+s0787;normal;16;16;16;normal;test
+s0788;normal;33;33;33;normal;test
+s0789;normal;0;0;0;HIE;test
+s0790;normal;21;21;21;Gliotic foci;test
+s0791;normal;28;28;28;DNET;test
+s0792;normal;0;0;0;Infarct;test
+s0793;normal;12;11;12;premature, intraventricular hemorrhage ;test
+s0794;normal;0;0;0;HIE;test
+s0795;normal;0;0;0;HIE;test
+s0796;normal;29;29;29;normal;test
+s0797;normal;16;16;16;Meningitis;test
+s0798;normal;7;7;7;Hydrocephalus;test
+s0799;normal;22;22;22;normal;test
+s0800;normal;3;3;3;Infarct;test
+s0801;normal;30;30;30;Gliotic foci;test
+s0802;normal;2;2;2;Meningitis;test
+s0803;normal;27;27;27;focal cortical dysplasia;test
+s0804;normal;35;35;35;Hydrocephalus;test
+s0805;normal;27;27;27;Crouzon syndrome;test
+s0806;normal;0;0;0;HIE;test
+s0807;normal;10;10;10;heterotopia;test
+s0808;normal;26;25;26;premature;test
+s0809;normal;0;0;0;Intracerebral hemorrhage;test
+s0810;normal;12;12;12;normal;test
+s0811;normal;0;0;0;Infarct;test
+s0812;normal;29;29;29;normal;test
+s0813;normal;0;0;0;HIE;test
+s0814;normal;24;24;24;Sturge-Weber-Syndrom;test
+s0815;normal;9;9;9;normal;test
+s0816;normal;2;2;2;HIE;test
+s0817;normal;5;5;5;normal;test
+s0818;normal;8;8;8;HIE;test
+s0819;normal;5;5;5;Hydrocephalus;test
+s0820;normal;0;0;0;HIE ;test
+s0821;normal;9;5;5;cerebellar atrophy;test
+s0822;normal;0;0;0;HIE;test
+s0823;normal;0;0;0;HIE;test
+s0824;normal;0;0;0;HIE;test
+s0825;normal;29;29;29;Ependymom;test
+s0826;normal;0;0;0;subararachnoidal hemorrhage;test
+s0827;normal;0;0;0;subdurale hemorrhagy;test
+s0828;normal;0;0;0;HIE;test
+s0829;normal;17;17;17;Infarct;test
+s0830;normal;36;36;36;medulloblastoma;test
+s0831;normal;33;33;33;postoperative;test
+s0832;normal;3;3;3;Meningitis;test
+s0833;normal;9;9;9;Meningitis;test

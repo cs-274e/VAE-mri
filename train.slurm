@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=overfit
+#SBATCH --job-name=eval_age
 #SBATCH --partition=arcus.p
 #SBATCH --ntasks=1
 #SBATCH --gres=gpu:1
@@ -7,8 +7,8 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100G
 #SBATCH --time=100:00:00
-#SBATCH --output=logs/train_%j.log
-#SBATCH --error=logs/train_%j.err
+#SBATCH --output=logs/eval_%j.log
+#SBATCH --error=logs/eval_%j.err
 #SBATCH --mail-type=all
 #SBATCH --mail-user=udelaqui@uci.edu
 
@@ -16,7 +16,6 @@ echo "=== Job started on $(hostname) at $(date)"
 
 mkdir -p logs
 
-# 👉 Use the python from the conda env where you already confirmed nibabel works
 PYTHON="/home/udelaqui/.conda/envs/denoise116/bin/python"   # <-- adjust if `which python` says different
 
 echo "Using python: $PYTHON"
@@ -39,7 +38,7 @@ nvidia-smi || true
 # ---- run training ----
 cd /baldig/bioprojects2/uxue/VAE-mri
 
-$PYTHON conditional_ddpm/train/overfit.py
-# $PYTHON conditional_ddpm/test_conditional_ddpm_2.py
+# $PYTHON conditional_ddpm/train/train_conditional_ddpm_3_age_resume.py
+$PYTHON conditional_ddpm/test/evaluation_for_corrected_2_age.py
 
 echo "=== Job finished at $(date)"
