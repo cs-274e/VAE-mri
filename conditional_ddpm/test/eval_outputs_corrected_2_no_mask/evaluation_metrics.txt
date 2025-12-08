@@ -1,0 +1,634 @@
+============================================================
+EVALUATION RESULTS (DDPM T1->T2, full-FOV PNG, NO MASK)
+============================================================
+Checkpoint: conditional_ddpm/train/best_models/ddpm_cond_t1_to_t2_3_corrected_2_no_mask.pth
+NIfTI test root: dataset/test
+PNG root: mri_slice_images/test
+PNG prefix (T2): t2
+Number of evaluated slices: 4752
+
+Overall (all slices):
+  PSNR: 18.7405 ± 3.1674 dB
+  SSIM: 0.7692 ± 0.0746
+
+Per-subject metrics by volume thirds (z-axis):
+
+Subject s0711:
+  1st third: PSNR=16.7964 dB, SSIM=0.7846
+  2nd third: PSNR=19.7340 dB, SSIM=0.7290
+  3rd third: PSNR=21.1106 dB, SSIM=0.8047
+
+Subject s0712:
+  1st third: PSNR=18.2315 dB, SSIM=0.7922
+  2nd third: PSNR=19.4877 dB, SSIM=0.7588
+  3rd third: PSNR=21.3635 dB, SSIM=0.8493
+
+Subject s0713:
+  1st third: PSNR=19.3485 dB, SSIM=0.7767
+  2nd third: PSNR=20.4938 dB, SSIM=0.6890
+  3rd third: PSNR=22.0184 dB, SSIM=0.7859
+
+Subject s0714:
+  1st third: PSNR=16.7878 dB, SSIM=0.7720
+  2nd third: PSNR=18.0726 dB, SSIM=0.6676
+  3rd third: PSNR=19.2758 dB, SSIM=0.8113
+
+Subject s0715:
+  1st third: PSNR=18.8011 dB, SSIM=0.7484
+  2nd third: PSNR=19.8671 dB, SSIM=0.6941
+  3rd third: PSNR=22.1514 dB, SSIM=0.7887
+
+Subject s0716:
+  1st third: PSNR=17.4210 dB, SSIM=0.7841
+  2nd third: PSNR=19.1975 dB, SSIM=0.7094
+  3rd third: PSNR=20.6895 dB, SSIM=0.8163
+
+Subject s0717:
+  1st third: PSNR=18.6787 dB, SSIM=0.7481
+  2nd third: PSNR=18.8750 dB, SSIM=0.7121
+  3rd third: PSNR=20.0478 dB, SSIM=0.7786
+
+Subject s0718:
+  1st third: PSNR=17.5229 dB, SSIM=0.8002
+  2nd third: PSNR=20.0670 dB, SSIM=0.7440
+  3rd third: PSNR=21.3843 dB, SSIM=0.8383
+
+Subject s0719:
+  1st third: PSNR=16.9267 dB, SSIM=0.7877
+  2nd third: PSNR=17.3864 dB, SSIM=0.7069
+  3rd third: PSNR=17.4173 dB, SSIM=0.7793
+
+Subject s0720:
+  1st third: PSNR=14.6397 dB, SSIM=0.7273
+  2nd third: PSNR=18.9100 dB, SSIM=0.7335
+  3rd third: PSNR=19.8537 dB, SSIM=0.8098
+
+Subject s0721:
+  1st third: PSNR=18.3495 dB, SSIM=0.7752
+  2nd third: PSNR=19.5679 dB, SSIM=0.7424
+  3rd third: PSNR=21.9533 dB, SSIM=0.8096
+
+Subject s0722:
+  1st third: PSNR=18.5066 dB, SSIM=0.7977
+  2nd third: PSNR=19.4200 dB, SSIM=0.7212
+  3rd third: PSNR=20.2591 dB, SSIM=0.8138
+
+Subject s0723:
+  1st third: PSNR=18.8653 dB, SSIM=0.7980
+  2nd third: PSNR=20.3136 dB, SSIM=0.7192
+  3rd third: PSNR=21.7295 dB, SSIM=0.8117
+
+Subject s0724:
+  1st third: PSNR=18.0792 dB, SSIM=0.8057
+  2nd third: PSNR=19.8619 dB, SSIM=0.7520
+  3rd third: PSNR=21.3833 dB, SSIM=0.8348
+
+Subject s0725:
+  1st third: PSNR=18.6773 dB, SSIM=0.7449
+  2nd third: PSNR=19.4028 dB, SSIM=0.7060
+  3rd third: PSNR=20.2014 dB, SSIM=0.7666
+
+Subject s0726:
+  1st third: PSNR=18.2640 dB, SSIM=0.8082
+  2nd third: PSNR=18.8719 dB, SSIM=0.7452
+  3rd third: PSNR=20.0088 dB, SSIM=0.8271
+
+Subject s0727:
+  1st third: PSNR=16.4763 dB, SSIM=0.7610
+  2nd third: PSNR=19.5294 dB, SSIM=0.7289
+  3rd third: PSNR=20.8603 dB, SSIM=0.8121
+
+Subject s0728:
+  1st third: PSNR=18.3783 dB, SSIM=0.8061
+  2nd third: PSNR=20.5811 dB, SSIM=0.7492
+  3rd third: PSNR=20.7408 dB, SSIM=0.8352
+
+Subject s0729:
+  1st third: PSNR=17.1483 dB, SSIM=0.7489
+  2nd third: PSNR=19.2794 dB, SSIM=0.6534
+  3rd third: PSNR=21.3147 dB, SSIM=0.7951
+
+Subject s0730:
+  1st third: PSNR=19.4430 dB, SSIM=0.8091
+  2nd third: PSNR=20.6844 dB, SSIM=0.7270
+  3rd third: PSNR=22.7441 dB, SSIM=0.8184
+
+Subject s0731:
+  1st third: PSNR=18.8412 dB, SSIM=0.7731
+  2nd third: PSNR=18.9979 dB, SSIM=0.7680
+  3rd third: PSNR=20.1327 dB, SSIM=0.8119
+
+Subject s0732:
+  1st third: PSNR=19.1630 dB, SSIM=0.7881
+  2nd third: PSNR=19.7863 dB, SSIM=0.7314
+  3rd third: PSNR=22.0710 dB, SSIM=0.8326
+
+Subject s0733:
+  1st third: PSNR=18.5406 dB, SSIM=0.7814
+  2nd third: PSNR=20.3933 dB, SSIM=0.7640
+  3rd third: PSNR=20.4006 dB, SSIM=0.8466
+
+Subject s0734:
+  1st third: PSNR=19.0206 dB, SSIM=0.8188
+  2nd third: PSNR=18.6797 dB, SSIM=0.7641
+  3rd third: PSNR=21.3067 dB, SSIM=0.8532
+
+Subject s0735:
+  1st third: PSNR=17.5958 dB, SSIM=0.7980
+  2nd third: PSNR=19.0306 dB, SSIM=0.7279
+  3rd third: PSNR=18.9744 dB, SSIM=0.7930
+
+Subject s0736:
+  1st third: PSNR=17.7124 dB, SSIM=0.8111
+  2nd third: PSNR=20.9456 dB, SSIM=0.7452
+  3rd third: PSNR=23.1481 dB, SSIM=0.8397
+
+Subject s0737:
+  1st third: PSNR=17.3748 dB, SSIM=0.7865
+  2nd third: PSNR=19.7732 dB, SSIM=0.7232
+  3rd third: PSNR=21.0324 dB, SSIM=0.8247
+
+Subject s0738:
+  1st third: PSNR=16.7563 dB, SSIM=0.8306
+  2nd third: PSNR=18.4152 dB, SSIM=0.7711
+  3rd third: PSNR=19.2223 dB, SSIM=0.8404
+
+Subject s0739:
+  1st third: PSNR=19.9261 dB, SSIM=0.8237
+  2nd third: PSNR=21.1522 dB, SSIM=0.7558
+  3rd third: PSNR=22.4607 dB, SSIM=0.8468
+
+Subject s0740:
+  1st third: PSNR=18.1626 dB, SSIM=0.8225
+  2nd third: PSNR=20.4317 dB, SSIM=0.7711
+  3rd third: PSNR=21.0193 dB, SSIM=0.8536
+
+Subject s0741:
+  1st third: PSNR=17.7566 dB, SSIM=0.8049
+  2nd third: PSNR=16.4580 dB, SSIM=0.7492
+  3rd third: PSNR=20.1991 dB, SSIM=0.8630
+
+Subject s0742:
+  1st third: PSNR=17.6510 dB, SSIM=0.8099
+  2nd third: PSNR=19.3565 dB, SSIM=0.7854
+  3rd third: PSNR=19.4870 dB, SSIM=0.8404
+
+Subject s0743:
+  1st third: PSNR=19.0665 dB, SSIM=0.8209
+  2nd third: PSNR=20.1279 dB, SSIM=0.7811
+  3rd third: PSNR=21.2987 dB, SSIM=0.8592
+
+Subject s0744:
+  1st third: PSNR=16.0507 dB, SSIM=0.7607
+  2nd third: PSNR=18.6085 dB, SSIM=0.6662
+  3rd third: PSNR=19.4800 dB, SSIM=0.7768
+
+Subject s0745:
+  1st third: PSNR=18.8424 dB, SSIM=0.7554
+  2nd third: PSNR=19.1239 dB, SSIM=0.6792
+  3rd third: PSNR=20.3619 dB, SSIM=0.7852
+
+Subject s0746:
+  1st third: PSNR=18.1807 dB, SSIM=0.8240
+  2nd third: PSNR=19.4164 dB, SSIM=0.7284
+  3rd third: PSNR=20.7778 dB, SSIM=0.8017
+
+Subject s0747:
+  1st third: PSNR=16.5673 dB, SSIM=0.8181
+  2nd third: PSNR=19.8276 dB, SSIM=0.7925
+  3rd third: PSNR=21.2681 dB, SSIM=0.8648
+
+Subject s0748:
+  1st third: PSNR=17.0897 dB, SSIM=0.8041
+  2nd third: PSNR=19.6323 dB, SSIM=0.7556
+  3rd third: PSNR=19.5898 dB, SSIM=0.8256
+
+Subject s0749:
+  1st third: PSNR=18.2102 dB, SSIM=0.8119
+  2nd third: PSNR=19.9072 dB, SSIM=0.7607
+  3rd third: PSNR=21.2912 dB, SSIM=0.8457
+
+Subject s0750:
+  1st third: PSNR=19.1537 dB, SSIM=0.8307
+  2nd third: PSNR=20.8251 dB, SSIM=0.7656
+  3rd third: PSNR=21.7421 dB, SSIM=0.8531
+
+Subject s0751:
+  1st third: PSNR=17.6953 dB, SSIM=0.7798
+  2nd third: PSNR=19.1539 dB, SSIM=0.7620
+  3rd third: PSNR=20.1438 dB, SSIM=0.8373
+
+Subject s0752:
+  1st third: PSNR=18.0645 dB, SSIM=0.8131
+  2nd third: PSNR=20.7213 dB, SSIM=0.7471
+  3rd third: PSNR=19.5881 dB, SSIM=0.8217
+
+Subject s0753:
+  1st third: PSNR=18.7053 dB, SSIM=0.7975
+  2nd third: PSNR=17.5131 dB, SSIM=0.7042
+  3rd third: PSNR=20.0141 dB, SSIM=0.8334
+
+Subject s0754:
+  1st third: PSNR=16.0546 dB, SSIM=0.7718
+  2nd third: PSNR=20.2191 dB, SSIM=0.7701
+  3rd third: PSNR=20.2137 dB, SSIM=0.8519
+
+Subject s0755:
+  1st third: PSNR=18.6782 dB, SSIM=0.8087
+  2nd third: PSNR=20.7692 dB, SSIM=0.7295
+  3rd third: PSNR=22.3024 dB, SSIM=0.8162
+
+Subject s0756:
+  1st third: PSNR=16.0604 dB, SSIM=0.7969
+  2nd third: PSNR=16.9365 dB, SSIM=0.7370
+  3rd third: PSNR=17.1679 dB, SSIM=0.7988
+
+Subject s0757:
+  1st third: PSNR=18.2552 dB, SSIM=0.8096
+  2nd third: PSNR=17.9124 dB, SSIM=0.6999
+  3rd third: PSNR=17.8985 dB, SSIM=0.8031
+
+Subject s0758:
+  1st third: PSNR=17.6197 dB, SSIM=0.8163
+  2nd third: PSNR=20.3154 dB, SSIM=0.7477
+  3rd third: PSNR=22.1886 dB, SSIM=0.8479
+
+Subject s0759:
+  1st third: PSNR=18.4280 dB, SSIM=0.7890
+  2nd third: PSNR=19.8333 dB, SSIM=0.7098
+  3rd third: PSNR=20.9690 dB, SSIM=0.8160
+
+Subject s0760:
+  1st third: PSNR=16.3672 dB, SSIM=0.7929
+  2nd third: PSNR=20.4188 dB, SSIM=0.7692
+  3rd third: PSNR=20.6812 dB, SSIM=0.8240
+
+Subject s0761:
+  1st third: PSNR=20.2644 dB, SSIM=0.8389
+  2nd third: PSNR=19.9869 dB, SSIM=0.7224
+  3rd third: PSNR=20.2533 dB, SSIM=0.8130
+
+Subject s0762:
+  1st third: PSNR=18.9949 dB, SSIM=0.8248
+  2nd third: PSNR=19.8346 dB, SSIM=0.7495
+  3rd third: PSNR=21.1878 dB, SSIM=0.8378
+
+Subject s0763:
+  1st third: PSNR=18.2749 dB, SSIM=0.8208
+  2nd third: PSNR=20.5862 dB, SSIM=0.7657
+  3rd third: PSNR=19.8440 dB, SSIM=0.8226
+
+Subject s0764:
+  1st third: PSNR=15.6432 dB, SSIM=0.7619
+  2nd third: PSNR=18.0677 dB, SSIM=0.6849
+  3rd third: PSNR=18.1409 dB, SSIM=0.7434
+
+Subject s0765:
+  1st third: PSNR=18.4215 dB, SSIM=0.8189
+  2nd third: PSNR=20.2874 dB, SSIM=0.7593
+  3rd third: PSNR=21.2380 dB, SSIM=0.8491
+
+Subject s0766:
+  1st third: PSNR=18.5260 dB, SSIM=0.8336
+  2nd third: PSNR=21.2018 dB, SSIM=0.8002
+  3rd third: PSNR=21.4540 dB, SSIM=0.8471
+
+Subject s0767:
+  1st third: PSNR=19.0015 dB, SSIM=0.8244
+  2nd third: PSNR=19.8516 dB, SSIM=0.7506
+  3rd third: PSNR=20.0644 dB, SSIM=0.8430
+
+Subject s0768:
+  1st third: PSNR=16.6784 dB, SSIM=0.7613
+  2nd third: PSNR=18.0142 dB, SSIM=0.6649
+  3rd third: PSNR=17.4593 dB, SSIM=0.7863
+
+Subject s0769:
+  1st third: PSNR=16.5996 dB, SSIM=0.7949
+  2nd third: PSNR=19.8327 dB, SSIM=0.7763
+  3rd third: PSNR=19.6922 dB, SSIM=0.8311
+
+Subject s0770:
+  1st third: PSNR=16.5781 dB, SSIM=0.7472
+  2nd third: PSNR=16.2443 dB, SSIM=0.5820
+  3rd third: PSNR=14.7030 dB, SSIM=0.6668
+
+Subject s0771:
+  1st third: PSNR=13.3973 dB, SSIM=0.7232
+  2nd third: PSNR=12.8845 dB, SSIM=0.5569
+  3rd third: PSNR=17.0255 dB, SSIM=0.7239
+
+Subject s0772:
+  1st third: PSNR=15.8725 dB, SSIM=0.7925
+  2nd third: PSNR=18.2435 dB, SSIM=0.7309
+  3rd third: PSNR=19.1140 dB, SSIM=0.8202
+
+Subject s0773:
+  1st third: PSNR=17.6271 dB, SSIM=0.8086
+  2nd third: PSNR=17.9300 dB, SSIM=0.7354
+  3rd third: PSNR=19.0392 dB, SSIM=0.8252
+
+Subject s0774:
+  1st third: PSNR=17.0269 dB, SSIM=0.8078
+  2nd third: PSNR=19.0950 dB, SSIM=0.7399
+  3rd third: PSNR=19.7560 dB, SSIM=0.8266
+
+Subject s0775:
+  1st third: PSNR=18.8857 dB, SSIM=0.7801
+  2nd third: PSNR=18.5559 dB, SSIM=0.5968
+  3rd third: PSNR=19.7110 dB, SSIM=0.7168
+
+Subject s0776:
+  1st third: PSNR=18.1529 dB, SSIM=0.8253
+  2nd third: PSNR=19.9073 dB, SSIM=0.7318
+  3rd third: PSNR=22.1040 dB, SSIM=0.8348
+
+Subject s0777:
+  1st third: PSNR=16.9681 dB, SSIM=0.7924
+  2nd third: PSNR=19.0120 dB, SSIM=0.7232
+  3rd third: PSNR=19.6852 dB, SSIM=0.8162
+
+Subject s0778:
+  1st third: PSNR=17.8803 dB, SSIM=0.8250
+  2nd third: PSNR=19.8682 dB, SSIM=0.7322
+  3rd third: PSNR=21.2776 dB, SSIM=0.8331
+
+Subject s0779:
+  1st third: PSNR=18.8930 dB, SSIM=0.8221
+  2nd third: PSNR=19.4825 dB, SSIM=0.7501
+  3rd third: PSNR=19.3334 dB, SSIM=0.8093
+
+Subject s0780:
+  1st third: PSNR=16.6882 dB, SSIM=0.8042
+  2nd third: PSNR=18.9092 dB, SSIM=0.7282
+  3rd third: PSNR=19.7341 dB, SSIM=0.8135
+
+Subject s0781:
+  1st third: PSNR=16.6936 dB, SSIM=0.6748
+  2nd third: PSNR=18.0044 dB, SSIM=0.6322
+  3rd third: PSNR=17.8327 dB, SSIM=0.7769
+
+Subject s0782:
+  1st third: PSNR=15.3815 dB, SSIM=0.7552
+  2nd third: PSNR=15.4884 dB, SSIM=0.6259
+  3rd third: PSNR=16.6055 dB, SSIM=0.7282
+
+Subject s0783:
+  1st third: PSNR=16.7755 dB, SSIM=0.7763
+  2nd third: PSNR=17.6288 dB, SSIM=0.7169
+  3rd third: PSNR=17.5045 dB, SSIM=0.7765
+
+Subject s0784:
+  1st third: PSNR=17.6214 dB, SSIM=0.8040
+  2nd third: PSNR=16.2962 dB, SSIM=0.6641
+  3rd third: PSNR=19.7029 dB, SSIM=0.7935
+
+Subject s0785:
+  1st third: PSNR=15.1800 dB, SSIM=0.7423
+  2nd third: PSNR=14.7150 dB, SSIM=0.6397
+  3rd third: PSNR=18.0160 dB, SSIM=0.7871
+
+Subject s0786:
+  1st third: PSNR=15.6999 dB, SSIM=0.7608
+  2nd third: PSNR=17.6382 dB, SSIM=0.7248
+  3rd third: PSNR=19.4883 dB, SSIM=0.8152
+
+Subject s0787:
+  1st third: PSNR=16.8762 dB, SSIM=0.7827
+  2nd third: PSNR=19.6577 dB, SSIM=0.7153
+  3rd third: PSNR=19.8108 dB, SSIM=0.7789
+
+Subject s0788:
+  1st third: PSNR=18.6384 dB, SSIM=0.8008
+  2nd third: PSNR=20.8369 dB, SSIM=0.7270
+  3rd third: PSNR=20.8041 dB, SSIM=0.8131
+
+Subject s0789:
+  1st third: PSNR=17.3966 dB, SSIM=0.7950
+  2nd third: PSNR=19.6638 dB, SSIM=0.6927
+  3rd third: PSNR=20.0286 dB, SSIM=0.7947
+
+Subject s0790:
+  1st third: PSNR=18.0390 dB, SSIM=0.7915
+  2nd third: PSNR=19.1338 dB, SSIM=0.7421
+  3rd third: PSNR=19.1347 dB, SSIM=0.8015
+
+Subject s0791:
+  1st third: PSNR=16.1586 dB, SSIM=0.7692
+  2nd third: PSNR=20.7442 dB, SSIM=0.7497
+  3rd third: PSNR=20.2118 dB, SSIM=0.8033
+
+Subject s0792:
+  1st third: PSNR=17.8391 dB, SSIM=0.7776
+  2nd third: PSNR=19.5140 dB, SSIM=0.7105
+  3rd third: PSNR=19.1697 dB, SSIM=0.7895
+
+Subject s0793:
+  1st third: PSNR=16.0944 dB, SSIM=0.7526
+  2nd third: PSNR=18.8022 dB, SSIM=0.7325
+  3rd third: PSNR=19.2638 dB, SSIM=0.7951
+
+Subject s0794:
+  1st third: PSNR=16.2457 dB, SSIM=0.7694
+  2nd third: PSNR=14.7329 dB, SSIM=0.6383
+  3rd third: PSNR=16.6883 dB, SSIM=0.7773
+
+Subject s0795:
+  1st third: PSNR=15.3025 dB, SSIM=0.7336
+  2nd third: PSNR=15.1179 dB, SSIM=0.5644
+  3rd third: PSNR=17.4581 dB, SSIM=0.7214
+
+Subject s0796:
+  1st third: PSNR=13.7534 dB, SSIM=0.7427
+  2nd third: PSNR=13.7889 dB, SSIM=0.6614
+  3rd third: PSNR=16.9520 dB, SSIM=0.7761
+
+Subject s0797:
+  1st third: PSNR=17.2039 dB, SSIM=0.7920
+  2nd third: PSNR=19.9092 dB, SSIM=0.7124
+  3rd third: PSNR=20.0390 dB, SSIM=0.7919
+
+Subject s0798:
+  1st third: PSNR=15.6271 dB, SSIM=0.7878
+  2nd third: PSNR=16.4540 dB, SSIM=0.7078
+  3rd third: PSNR=16.7191 dB, SSIM=0.7872
+
+Subject s0799:
+  1st third: PSNR=17.0395 dB, SSIM=0.7697
+  2nd third: PSNR=19.3586 dB, SSIM=0.7248
+  3rd third: PSNR=18.9775 dB, SSIM=0.7974
+
+Subject s0800:
+  1st third: PSNR=16.5553 dB, SSIM=0.8173
+  2nd third: PSNR=16.9716 dB, SSIM=0.6845
+  3rd third: PSNR=18.5717 dB, SSIM=0.7799
+
+Subject s0801:
+  1st third: PSNR=17.2016 dB, SSIM=0.7819
+  2nd third: PSNR=20.0954 dB, SSIM=0.7489
+  3rd third: PSNR=18.4283 dB, SSIM=0.7674
+
+Subject s0802:
+  1st third: PSNR=17.6125 dB, SSIM=0.8187
+  2nd third: PSNR=18.4385 dB, SSIM=0.6948
+  3rd third: PSNR=20.1280 dB, SSIM=0.7861
+
+Subject s0803:
+  1st third: PSNR=17.3576 dB, SSIM=0.7940
+  2nd third: PSNR=19.1148 dB, SSIM=0.7514
+  3rd third: PSNR=19.3235 dB, SSIM=0.8156
+
+Subject s0804:
+  1st third: PSNR=15.4077 dB, SSIM=0.7678
+  2nd third: PSNR=15.4603 dB, SSIM=0.6625
+  3rd third: PSNR=15.6026 dB, SSIM=0.7462
+
+Subject s0805:
+  1st third: PSNR=15.5521 dB, SSIM=0.7951
+  2nd third: PSNR=13.4293 dB, SSIM=0.6219
+  3rd third: PSNR=14.2868 dB, SSIM=0.7541
+
+Subject s0806:
+  1st third: PSNR=16.7409 dB, SSIM=0.7735
+  2nd third: PSNR=19.1765 dB, SSIM=0.7080
+  3rd third: PSNR=19.8611 dB, SSIM=0.8024
+
+Subject s0807:
+  1st third: PSNR=16.6919 dB, SSIM=0.7741
+  2nd third: PSNR=20.0065 dB, SSIM=0.7298
+  3rd third: PSNR=21.2106 dB, SSIM=0.8210
+
+Subject s0808:
+  1st third: PSNR=15.9715 dB, SSIM=0.7766
+  2nd third: PSNR=20.0321 dB, SSIM=0.7426
+  3rd third: PSNR=20.1619 dB, SSIM=0.8143
+
+Subject s0809:
+  1st third: PSNR=17.6425 dB, SSIM=0.7716
+  2nd third: PSNR=18.7313 dB, SSIM=0.6272
+  3rd third: PSNR=17.5683 dB, SSIM=0.7036
+
+Subject s0810:
+  1st third: PSNR=17.0541 dB, SSIM=0.7740
+  2nd third: PSNR=20.5511 dB, SSIM=0.7340
+  3rd third: PSNR=20.9826 dB, SSIM=0.7976
+
+Subject s0811:
+  1st third: PSNR=17.1662 dB, SSIM=0.7851
+  2nd third: PSNR=20.2603 dB, SSIM=0.7283
+  3rd third: PSNR=20.1558 dB, SSIM=0.8164
+
+Subject s0812:
+  1st third: PSNR=16.6856 dB, SSIM=0.7897
+  2nd third: PSNR=20.2025 dB, SSIM=0.7737
+  3rd third: PSNR=19.1705 dB, SSIM=0.8081
+
+Subject s0813:
+  1st third: PSNR=19.2455 dB, SSIM=0.8408
+  2nd third: PSNR=20.1764 dB, SSIM=0.7818
+  3rd third: PSNR=19.6861 dB, SSIM=0.8285
+
+Subject s0814:
+  1st third: PSNR=15.6088 dB, SSIM=0.7667
+  2nd third: PSNR=19.7026 dB, SSIM=0.7492
+  3rd third: PSNR=20.2178 dB, SSIM=0.8224
+
+Subject s0815:
+  1st third: PSNR=18.9538 dB, SSIM=0.8110
+  2nd third: PSNR=19.4232 dB, SSIM=0.7321
+  3rd third: PSNR=19.0798 dB, SSIM=0.7816
+
+Subject s0816:
+  1st third: PSNR=18.4102 dB, SSIM=0.8241
+  2nd third: PSNR=20.0515 dB, SSIM=0.7499
+  3rd third: PSNR=21.5234 dB, SSIM=0.8346
+
+Subject s0817:
+  1st third: PSNR=15.7876 dB, SSIM=0.7944
+  2nd third: PSNR=19.2641 dB, SSIM=0.7240
+  3rd third: PSNR=19.4798 dB, SSIM=0.8054
+
+Subject s0818:
+  1st third: PSNR=17.1974 dB, SSIM=0.7655
+  2nd third: PSNR=17.1626 dB, SSIM=0.5835
+  3rd third: PSNR=17.4397 dB, SSIM=0.6798
+
+Subject s0819:
+  1st third: PSNR=17.1480 dB, SSIM=0.8196
+  2nd third: PSNR=16.9391 dB, SSIM=0.7204
+  3rd third: PSNR=18.1881 dB, SSIM=0.7908
+
+Subject s0820:
+  1st third: PSNR=16.3404 dB, SSIM=0.7572
+  2nd third: PSNR=16.3341 dB, SSIM=0.6320
+  3rd third: PSNR=17.2984 dB, SSIM=0.7405
+
+Subject s0821:
+  1st third: PSNR=16.5285 dB, SSIM=0.7120
+  2nd third: PSNR=15.2612 dB, SSIM=0.4323
+  3rd third: PSNR=16.6180 dB, SSIM=0.6370
+
+Subject s0822:
+  1st third: PSNR=17.5247 dB, SSIM=0.7712
+  2nd third: PSNR=18.9729 dB, SSIM=0.6689
+  3rd third: PSNR=20.9823 dB, SSIM=0.8190
+
+Subject s0823:
+  1st third: PSNR=18.4538 dB, SSIM=0.7952
+  2nd third: PSNR=19.0459 dB, SSIM=0.6498
+  3rd third: PSNR=20.1199 dB, SSIM=0.7696
+
+Subject s0824:
+  1st third: PSNR=18.0012 dB, SSIM=0.7911
+  2nd third: PSNR=18.9094 dB, SSIM=0.7066
+  3rd third: PSNR=20.0625 dB, SSIM=0.8109
+
+Subject s0825:
+  1st third: PSNR=18.4313 dB, SSIM=0.7951
+  2nd third: PSNR=19.6180 dB, SSIM=0.7387
+  3rd third: PSNR=19.2639 dB, SSIM=0.8050
+
+Subject s0826:
+  1st third: PSNR=18.7841 dB, SSIM=0.7742
+  2nd third: PSNR=20.9338 dB, SSIM=0.7108
+  3rd third: PSNR=19.5820 dB, SSIM=0.7607
+
+Subject s0827:
+  1st third: PSNR=17.1447 dB, SSIM=0.7984
+  2nd third: PSNR=21.0198 dB, SSIM=0.7196
+  3rd third: PSNR=20.0033 dB, SSIM=0.7983
+
+Subject s0828:
+  1st third: PSNR=16.7725 dB, SSIM=0.7826
+  2nd third: PSNR=19.5066 dB, SSIM=0.7225
+  3rd third: PSNR=19.0698 dB, SSIM=0.8011
+
+Subject s0829:
+  1st third: PSNR=19.0115 dB, SSIM=0.7931
+  2nd third: PSNR=22.4322 dB, SSIM=0.7411
+  3rd third: PSNR=25.1569 dB, SSIM=0.8293
+
+Subject s0830:
+  1st third: PSNR=17.0354 dB, SSIM=0.7622
+  2nd third: PSNR=19.8899 dB, SSIM=0.7147
+  3rd third: PSNR=19.2508 dB, SSIM=0.7947
+
+Subject s0831:
+  1st third: PSNR=19.3568 dB, SSIM=0.7852
+  2nd third: PSNR=19.5629 dB, SSIM=0.7027
+  3rd third: PSNR=18.8239 dB, SSIM=0.7924
+
+Subject s0832:
+  1st third: PSNR=18.7746 dB, SSIM=0.7916
+  2nd third: PSNR=17.3308 dB, SSIM=0.6666
+  3rd third: PSNR=18.0167 dB, SSIM=0.7913
+
+Subject s0833:
+  1st third: PSNR=18.5430 dB, SSIM=0.8014
+  2nd third: PSNR=20.7642 dB, SSIM=0.7167
+  3rd third: PSNR=22.7244 dB, SSIM=0.8151
+
+Global metrics by volume thirds (across all subjects):
+  1st third: PSNR=17.4598 dB, SSIM=0.7883
+  2nd third: PSNR=19.0061 dB, SSIM=0.7161
+  3rd third: PSNR=19.8149 dB, SSIM=0.8033
