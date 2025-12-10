@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=train
+#SBATCH --job-name=eval
 #SBATCH --partition=arcus.p
 #SBATCH --nodes=1                # ensure single node
 #SBATCH --ntasks=1               # one process using multiple GPUs
@@ -8,8 +8,8 @@
 #SBATCH --cpus-per-task=8        # maybe bump a bit for dataloader (optional)
 #SBATCH --mem=300G
 #SBATCH --time=100:00:00
-#SBATCH --output=logs/train_%j.log
-#SBATCH --error=logs/train_%j.err
+#SBATCH --output=logs/eval_%j.log
+#SBATCH --error=logs/eval_%j.err
 #SBATCH --mail-type=all
 #SBATCH --mail-user=udelaqui@uci.edu
 
@@ -39,4 +39,4 @@ nvidia-smi || true
 # ---- run training ----
 cd /baldig/bioprojects2/uxue/VAE-mri
 
-$PYTHON conditional_ddpm/train/train_conditional_ddpm_4_age_resume.py
+$PYTHON conditional_ddpm/test/evaluation_for_corrected_3_age.py

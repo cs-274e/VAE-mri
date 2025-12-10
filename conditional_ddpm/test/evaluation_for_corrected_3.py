@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
-Evaluation script for conditional DDPM model (multi-GPU trained) on MRI T1->T2 translation.
+Evaluation script for conditional DDPM model on MRI T1->T2 translation.
+
+This version matches the training setup in the "corrected_3_gpu" script:
+- Same PairedNiftiSliceDataset (cropped brain bbox, per-volume normalization, resize to 192x192)
+- Same DiffusionConfig (T=400, beta_start=1e-4, beta_end=0.02)
+- Same UNetConditional architecture
 
 Pipeline:
 1. Use PairedNiftiSliceDataset on dataset/test (same preprocessing as training).
@@ -40,8 +45,8 @@ THIS_DIR = Path(__file__).resolve().parent         # .../conditional_ddpm/test
 PROJECT_ROOT = THIS_DIR.parent                     # .../conditional_ddpm
 sys.path.append(str(PROJECT_ROOT))
 
-# adjust module name if your file has a different name
-from train.train_conditional_ddpm_4 import (
+# >>> change the module name below if your training file is named differently
+from train.train_conditional_ddpm_4_resume import (
     PairedNiftiSliceDataset,
     DiffusionConfig,
     UNetConditional,
@@ -54,7 +59,7 @@ from train.train_conditional_ddpm_4 import (
 # NIfTI-based test split (same style as training)
 TEST_ROOT = "dataset/test"
 
-# Path to trained DDPM checkpoint from this training script
+# Path to trained DDPM checkpoint (out_ckpt_best from your training script)
 CKPT_PATH = "conditional_ddpm/train/best_models/ddpm_cond_t1_to_t2_3_corrected_3_gpu.pth"
 
 # Root of PNG slices prepared by your colleague
@@ -348,7 +353,7 @@ def evaluate():
                 print(f"Processing slice batch {i+1}/{len(test_loader)}...")
 
             t1 = t1.to(DEVICE)  # (B,1,H_model,W_model)
-            t2 = t2.to(DEVICE)  # not used for metrics directly
+            t2 = t2.to(DEVICE)  # not used directly for metrics
 
             subj_idx_tensor, z_tensor = meta
 
@@ -440,6 +445,7 @@ def evaluate():
 
             # --- Store prediction examples for specified z-values (prediction only) ---
             if z_val in EXAMPLE_ZS and z_val not in examples[subj_name]:
+                # full_pred_png_np is already full-FOV, PNG orientation, uint8-like
                 examples[subj_name][z_val] = full_pred_png_np
 
     # =========================
@@ -452,7 +458,7 @@ def evaluate():
     std_ssim = float(np.std(all_ssim)) if all_ssim else float("nan")
 
     print("\n" + "=" * 60)
-    print("EVALUATION RESULTS (DDPM T1->T2, full-FOV PNG, multi-GPU trained)")
+    print("EVALUATION RESULTS (DDPM T1->T2, full-FOV PNG, corrected_3_gpu)")
     print("=" * 60)
     print(f"Number of evaluated slices: {len(all_psnr)}")
     print(f"\nOverall (all slices):")
@@ -489,10 +495,13 @@ def evaluate():
     # Save metrics to disk
     # =========================
 
+    results_dir = Path(RESULTS_DIR)
+    results_dir.mkdir(parents=True, exist_ok=True)
+
     metrics_file = results_dir / "evaluation_metrics.txt"
     with open(metrics_file, 'w') as f:
         f.write("=" * 60 + "\n")
-        f.write("EVALUATION RESULTS (DDPM T1->T2, full-FOV PNG, multi-GPU trained)\n")
+        f.write("EVALUATION RESULTS (DDPM T1->T2, full-FOV PNG, corrected_3_gpu)\n")
         f.write("=" * 60 + "\n")
         f.write(f"Checkpoint: {CKPT_PATH}\n")
         f.write(f"NIfTI test root: {TEST_ROOT}\n")
@@ -548,6 +557,7 @@ def evaluate():
         subj_dir.mkdir(parents=True, exist_ok=True)
 
         for z_val, pred_img in slices_dict.items():
+            # pred_img is (H_png, W_png), uint8-like
             img = Image.fromarray(pred_img.astype(np.uint8))
             out_path = subj_dir / f"t2_pred_z{z_val:03d}.png"
             img.save(out_path)
@@ -556,3 +566,4 @@ def evaluate():
 
 if __name__ == "__main__":
     evaluate()
+

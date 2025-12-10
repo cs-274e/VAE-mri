@@ -39,6 +39,6 @@ nvidia-smi || true
 cd /baldig/bioprojects2/uxue/VAE-mri
 
 # $PYTHON conditional_ddpm/train/train_conditional_ddpm_3_age_resume.py
-$PYTHON conditional_ddpm/test/evaluation_for_corrected_2_age.py
+$PYTHON conditional_ddpm/test/test_trajectories.py
 
 echo "=== Job finished at $(date)"
